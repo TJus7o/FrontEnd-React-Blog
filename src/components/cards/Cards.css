@@ -51,6 +51,10 @@
     overflow: hidden;
   }
   
+  .author_link {
+    padding-left: 10px;
+  }
+
   .fade-img {
     animation-name: fade-img;
     animation-duration: 2s;

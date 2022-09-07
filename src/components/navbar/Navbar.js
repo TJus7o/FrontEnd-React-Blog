@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 import { AiOutlineClose } from 'react-icons/ai'
 import { FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
-import { Link } from 'react-scroll'
+import { Link } from "react-router-dom";
 
 
 
@@ -19,7 +19,7 @@ function Navbar() {
             </div>
             <ul className="nav-menu">
                 <Link to='/' smooth={true} duration={500} ><li>Home</li></Link>
-                <Link to='/About.js' smooth={true} duration={500} ><li>About</li></Link>
+                <a href='https://merkleinc.ch/en' smooth={true} duration={500} ><li>About</li></a>
             </ul>
                 <div><button>Subscribe</button></div>
             <div className="hamburger" onClick={handleNav}>

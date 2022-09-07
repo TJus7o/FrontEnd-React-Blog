@@ -1,14 +1,15 @@
 import React from 'react';
 import CardItem from './CardItem';
 import Image1 from '../../assets/logo.png'
-import BgImage from '../../assets/bgimage.jpg'
+import { Link } from 'react-router-dom';
+
 
 
 import './Cards.css';
 
 function Cards() {
   return (
-    <div className='cards' /*style={{ backgroundImage:`url(${BgImage})` }}*/>
+    <div className='cards'>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -16,7 +17,7 @@ function Cards() {
               src={Image1} alt="/"
               text=''
               label='TAG'
-              path='/ArticlePage.js'
+              path='/articlePage'
             />
             <CardItem
               src={Image1} alt="/"

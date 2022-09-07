@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-scroll'
+import { Link } from 'react-router-dom';
 import Image1 from '../../assets/logo.png'
 import CardItem from '../cards/CardItem';
 
@@ -17,8 +17,8 @@ function ArticleItem() {
     <div className="postInfo">
       <div className="postCats">
         <span className="postCat">
-          <Link className="link" to="/">
-            Web Developer
+          <Link className="link" to="/authorPage">
+            Author
           </Link>
         </span>
         <span className="postCat">
