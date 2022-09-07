@@ -1,0 +1,107 @@
+.info {
+    width: 100%;
+    padding: 3rem 0;
+    
+}
+
+
+.info .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+    padding: 0 1rem;
+}
+
+.info-col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.info .box {
+    display: flex;
+    max-width: 310px;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.promo {
+    width: 100%;
+    margin: .4rem 0;
+    margin-bottom: 4rem;
+    border: 1px solid var(--primary-orange);
+    text-align: center;
+}
+
+.promo h4 {
+    font-size: 1.6rem;
+    color: var(--primary-blue);
+}
+
+.promo .timer {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.promo .offers {
+    background: #333;
+    color: var(--primary-orange);
+    padding: .4rem 0;
+}
+
+.info form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrap {
+    margin: .4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.info input, select {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+.info .date {
+    display: flex;
+}
+
+.info button {
+    margin: .4rem;
+}
+
+
+@media screen and (max-width: 940px) {
+    .info .container {
+        grid-template-columns: 1fr;
+    }
+
+    .info-col-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .info .right {
+        max-width: 100%;
+    }
+
+    .info form {
+        width: 100%;
+    }
+
+    .info .date {
+        flex-direction: column;
+    }
+}
