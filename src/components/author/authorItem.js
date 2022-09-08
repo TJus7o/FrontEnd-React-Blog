@@ -6,12 +6,12 @@ import './authorItem.css'
 
 function authorItem() {
   return (
-    <div className='author_about'>
+    <div className='container'>
   
         <h1>About the Author</h1>
         <figure className='author_photo'>
         <img 
-        src={Image1} width='1000'>
+        src={Image1} width='100%'>
         </img>
         </figure>
 

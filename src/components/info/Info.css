@@ -3,6 +3,20 @@
     padding: 3rem 0;  
 }
 
+
+@media screen and (max-width: 940px) {
+
+    .info {
+        top: auto;
+         
+    }
+  }
+
+
+.info img {
+    cursor: pointer;
+}
+
 .info .box {
     display: flex;
     max-width: 310px;

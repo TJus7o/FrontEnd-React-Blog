@@ -29,6 +29,10 @@
     align-items: center;
 }
 
+.footer svg {
+    color: white;
+}
+
 .footer ul {
     display: flex;
 }

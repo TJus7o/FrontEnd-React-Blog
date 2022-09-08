@@ -19,7 +19,7 @@ function Navbar() {
             </div>
             <ul className="nav-menu">
                 <Link to='/' smooth={true} duration={500} ><li>Home</li></Link>
-                <a href='https://merkleinc.ch/en' smooth={true} duration={500} ><li>About</li></a>
+                <a href='https://merkleinc.ch/en' ><li>About</li></a>
             </ul>
                 <div><button>Subscribe</button></div>
             <div className="hamburger" onClick={handleNav}>
@@ -29,18 +29,23 @@ function Navbar() {
 
             <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
                 <ul className="mobile-nav">
-                <Link to='/Home.js' smooth={true} duration={500} ><li>Home</li></Link>
-                <Link to='/About.js' smooth={true} duration={500} ><li>About</li></Link>
+                <Link to='/' smooth={true} duration={500} ><li>Home</li></Link>
+                <a href='https://merkleinc.ch/en' ><li>About</li></a>
                 </ul>
                 <div className="mobile-menu-bottom">
                     <div className="menu-icons">
-                    <button>Subscribe</button>
-                    
+                   
                     </div>
                     <div className="social-icons">
+                        <a href='https://twitter.com/MerkleDACH'>
                         <FaTwitter className='icon' />
+                        </a>
+                        <a href='https://www.linkedin.com/company/merkle-dach/mycompany/'>
                         <FaLinkedin className='icon' />
+                        </a>
+                        <a href='https://www.youtube.com/c/MerkleDACH'>
                         <FaYoutube className='icon' />
+                        </a>
                     </div>
                 </div>
             </div>

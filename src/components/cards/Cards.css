@@ -1,12 +1,21 @@
 .cards {
     padding: 4rem;
-   
+    
   }
   
   h1 {
     text-align: center;
   }
   
+
+  @media screen and (max-width: 940px) {
+
+    .cards__container {
+        top: 20vh;
+        position: relative;  
+    }
+  }
+
   .cards__container {
     display: flex;
     flex-flow: column;
@@ -14,11 +23,13 @@
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
+    
   }
   
   .cards__wrapper {
     position: relative;
-    margin: 50px 0 45px;
+    margin: 50px 0 45px; 
+
   }
   
   .cards__items {
@@ -29,7 +40,7 @@
     display: flex;
     flex: 1;
     margin: 0 1rem;
-    border-radius: 10px;
+    border-radius: 10px; 
   }
   
   .cards__item__link {
@@ -49,6 +60,7 @@
     width: 100%;
     padding-top: 67%;
     overflow: hidden;
+    box-shadow: 5px 5px 5px #1F98F4;
   }
   
   .author_link {
