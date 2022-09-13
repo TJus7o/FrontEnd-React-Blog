@@ -10,7 +10,7 @@
     border-bottom-style: inset ;
     border-bottom-color: var(--primary-orange) ;
     background-color: var(--primary-blue);
-    
+    position: fixed;
 }
 
 button {

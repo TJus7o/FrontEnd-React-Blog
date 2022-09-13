@@ -6,14 +6,17 @@ import Cards from '../cards/Cards'
 
 
 
+
+
 const Home = () => {
+  
+
   return (
     <div >
     <Navbar />
       <Cards />
       <Info />
       <Footer /> 
-      
     </div>
   );
 }

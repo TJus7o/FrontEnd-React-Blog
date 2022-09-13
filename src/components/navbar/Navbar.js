@@ -1,8 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 import { AiOutlineClose } from 'react-icons/ai'
 import { FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
+
+import PopUp from '../pages/popUp'
+
 
 
 
@@ -11,6 +14,17 @@ import './Navbar.css'
 function Navbar() {
     const [nav, setNav] = useState(false)
     const handleNav = () => setNav(!nav)
+
+
+    const [buttonPopup, setButtonPopup] = useState(false)
+    const [timedPopup, setTimedPopup] = useState(false)
+
+    useEffect(() => {
+        setTimeout ( () => {
+          setTimedPopup(true);
+        }, 3000);
+      }, []);
+    
 
     return (
         <div name='home' className={nav ? 'navbar navbar-bg' : 'navbar'}>
@@ -21,12 +35,16 @@ function Navbar() {
                 <Link to='/' smooth={true} duration={500} ><li>Home</li></Link>
                 <a href='https://merkleinc.ch/en' ><li>About</li></a>
             </ul>
-                <div><button>Subscribe</button></div>
-            <div className="hamburger" onClick={handleNav}>
+            
+                <div>
+                <button onClick={() => setButtonPopup(true)}>Subscribe</button>
+                </div>
+                <PopUp trigger={buttonPopup} setTrigger={setButtonPopup}></PopUp>
+                <PopUp trigger={timedPopup} setTrigger={setTimedPopup}></PopUp>
+
+            <div className="hamburger" onClick={handleNav} >
                 {!nav ? (<HiOutlineMenuAlt4 className='icon' />) : (<AiOutlineClose style={{ color: '#000' }} className='icon' />)}
-
             </div>
-
             <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
                 <ul className="mobile-nav">
                 <Link to='/' smooth={true} duration={500} ><li>Home</li></Link>
@@ -34,7 +52,6 @@ function Navbar() {
                 </ul>
                 <div className="mobile-menu-bottom">
                     <div className="menu-icons">
-                   
                     </div>
                     <div className="social-icons">
                         <a href='https://twitter.com/MerkleDACH'>
@@ -49,7 +66,6 @@ function Navbar() {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }

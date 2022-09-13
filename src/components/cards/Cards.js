@@ -23,7 +23,7 @@ function Cards() {
               src={Image1} alt="/"
               text=''
               label='TAG'
-              path='/ArticlePage.js'
+              path='/articlePage'
             />
           </ul>
           <ul className='cards__items'>
@@ -31,19 +31,19 @@ function Cards() {
               src={Image1} alt="/"
               text=''
               label='TAG'
-              path='/ArticlePage.js'
+              path='/articlePage'
             />
             <CardItem
               src={Image1} alt="/"
               text=''
               label='TAG'
-              path='/ArticlePage.js'
+              path='/articlePage'
             />
             <CardItem
               src={Image1} alt="/"
               text=''
               label='TAG'
-              path='/ArticlePage.js'
+              path='/articlePage'
             />
           </ul>
         </div>
