@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Image1 from '../../assets/logo.png'
-import CardItem from '../cards/CardItem';
+import CardItem from '../cards/cardItem';
 
-import './Article.css'
+import './article.css'
 
 function ArticleItem() {
   return (
@@ -50,19 +50,19 @@ function ArticleItem() {
               src={Image1} alt="/"
               text=''
               label='TAG'
-              path='/ArticlePage.js'
+              path='/articlePage.js'
             />
             <CardItem
               src={Image1} alt="/"
               text=''
               label='TAG'
-              path='/ArticlePage.js'
+              path='/articlePage.js'
             />
             <CardItem
               src={Image1} alt="/"
               text=''
               label='TAG'
-              path='/ArticlePage.js'
+              path='/articlePage.js'
             />
           </ul>
         </div>

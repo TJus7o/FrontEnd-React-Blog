@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../navbar/Navbar'
-import Footer from '../footer/Footer'
+import Navbar from '../navbar/navbar'
+import Footer from '../footer/footer'
 import AuthorItem from '../author/authorItem'
 
 function AuthorPage() {

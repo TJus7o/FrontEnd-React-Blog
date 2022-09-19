@@ -1,11 +1,11 @@
 import React from 'react';
-import CardItem from './CardItem';
+import CardItem from './cardItem';
 import Image1 from '../../assets/logo.png'
-import { Link } from 'react-router-dom';
 
 
 
-import './Cards.css';
+
+import './cards.css';
 
 function Cards() {
   return (

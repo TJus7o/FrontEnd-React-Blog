@@ -6,10 +6,7 @@ import { Link } from "react-router-dom"
 
 import PopUp from '../pages/popUp'
 
-
-
-
-import './Navbar.css'
+import './navbar.css'
 
 function Navbar() {
     const [nav, setNav] = useState(false)

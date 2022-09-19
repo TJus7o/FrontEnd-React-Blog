@@ -1,7 +1,7 @@
 import React from 'react'
-import ArticleItem from '../articles/ArticleItem'
-import Footer from '../footer/Footer'
-import Navbar from '../navbar/Navbar'
+import ArticleItem from '../articles/articleItem'
+import Footer from '../footer/footer'
+import Navbar from '../navbar/navbar'
 
 function ArticlePage() {
   return (

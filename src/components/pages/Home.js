@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../navbar/Navbar'
-import Info from '../info/Info'
-import Footer from '../footer/Footer'
-import Cards from '../cards/Cards'
+import Navbar from '../navbar/navbar'
+import Info from '../info/info'
+import Footer from '../footer/footer'
+import Cards from '../cards/cards'
 
 
 
