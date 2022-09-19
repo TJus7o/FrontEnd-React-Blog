@@ -1,35 +1,39 @@
+import { color } from '@mui/system'
 import React from 'react'
 import './popUp.css'
 
 function popUp(props) {
   return (props.trigger) ? (
     <div className='container-popup' >
-        <form className='popup-inner'>
-        <div class="banner-newsletter">
-      <img src="/src/assets/mini.jpg" alt="logo" width="100" height="150"/>
+        <form className='popup-inner row'>
+        <div class="banner-newsletter col-1">
+        <h3>IMAGEM TESTE</h3>
+      <img src='/src/assets/envelope.jpg' alt="logo" width="50" height="50"/>
     </div>
-        <div className='info'>
+        <div className='info col-2'>
             <h1>NEWSLETTER</h1>
             <h3>Enroll for our FREE updates</h3>
             <li>Well send you periodic updates</li>
             <li>Dont worry, its not the least bit annoying</li>
             <br></br>
             <div className='labels'>
-            <label >Name:</label>
             <br></br>
-            <input  
-                type='text'
+            <input 
+                type='text' name='' required='' placeholder='name' 
             />
             <div>
-             <label>Email:</label>
             <br></br>
             <input  
-                type='email'
+                type='email' name='' required='' placeholder='email'
             />
             </div>
             </div>
             <button className='close-btn' onClick={() => props.setTrigger(false)}>close</button>
             {props.children}
+            <br></br>
+            <div className='terms'>
+            <p>Terms available <a href='/'>here.</a></p>
+            </div>
             <div className='checkbox'>
               <input
                id='checkBox' type='checkbox' 

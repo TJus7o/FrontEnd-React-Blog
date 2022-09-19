@@ -16,11 +16,11 @@ function Navbar() {
     const [buttonPopup, setButtonPopup] = useState(false)
     const [timedPopup, setTimedPopup] = useState(false)
 
-    useEffect(() => {
+    /*useEffect(() => {
         setTimeout ( () => {
           setTimedPopup(true);
         }, 3000);
-      }, []);
+      }, []);*/
     
 
     return (
