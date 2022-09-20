@@ -1,14 +1,18 @@
 import { color } from '@mui/system'
 import React from 'react'
 import './popUp.css'
+import Image1 from '../../assets/envelope.png'
+import Image2 from '../../assets/mini.jpg'
 
 function popUp(props) {
   return (props.trigger) ? (
     <div className='container-popup' >
         <form className='popup-inner row'>
         <div class="banner-newsletter col-1">
-        <h3>IMAGEM TESTE</h3>
-      <img src='/src/assets/envelope.jpg' alt="logo" width="50" height="50"/>
+        <img src={Image2} alt="logo" width="80" height="80"/>
+        <div className='envelope'>
+      <img src={Image1} alt="logo" width="400" height="400"/>
+      </div>
     </div>
         <div className='info col-2'>
             <h1>NEWSLETTER</h1>
@@ -17,14 +21,13 @@ function popUp(props) {
             <li>Dont worry, its not the least bit annoying</li>
             <br></br>
             <div className='labels'>
-            <br></br>
             <input 
-                type='text' name='' required='' placeholder='name' 
+                type='text' name='' required='' placeholder='Name' 
             />
             <div>
             <br></br>
             <input  
-                type='email' name='' required='' placeholder='email'
+                type='email' name='' required='' placeholder='Email Address'
             />
             </div>
             </div>

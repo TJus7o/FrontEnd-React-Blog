@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 import { AiOutlineClose } from 'react-icons/ai'
 import { FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom'
+
 
 import PopUp from '../pages/popUp'
 

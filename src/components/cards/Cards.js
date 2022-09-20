@@ -1,9 +1,7 @@
 import React from 'react';
 import CardItem from './cardItem';
-import Image1 from '../../assets/logo.png'
-
-
-
+import Image1 from '../../assets/ambiente.jpg'
+import Image2 from '../../assets/react.jpg'
 
 import './cards.css';
 
@@ -25,8 +23,6 @@ function Cards() {
               label='TAG'
               path='/articlePage'
             />
-          </ul>
-          <ul className='cards__items'>
             <CardItem
               src={Image1} alt="/"
               text=''
@@ -39,13 +35,33 @@ function Cards() {
               label='TAG'
               path='/articlePage'
             />
+            </ul>
+            <ul className='cards__items'>
             <CardItem
-              src={Image1} alt="/"
+              src={Image2} alt="/"
               text=''
               label='TAG'
               path='/articlePage'
             />
-          </ul>
+            <CardItem
+              src={Image2} alt="/"
+              text=''
+              label='TAG'
+              path='/articlePage'
+            />
+            <CardItem
+              src={Image2} alt="/"
+              text=''
+              label='TAG'
+              path='/articlePage'
+            />
+            <CardItem
+              src={Image2} alt="/"
+              text=''
+              label='TAG'
+              path='/articlePage'
+            />
+            </ul>
         </div>
       </div>
     </div>

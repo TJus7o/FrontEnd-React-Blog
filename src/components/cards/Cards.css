@@ -1,12 +1,11 @@
-.cards {
-    padding: 4rem;
+  .cards {
+    	padding-top: 50px;
   }
-  
+
   h1 {
     text-align: center;
   }
   
-
   @media screen and (max-width: 940px) {
 
     .cards__container {
@@ -30,15 +29,19 @@
 
   }
   
-  .cards__items {
+  .cards__items{
     margin-bottom: 24px;
+    
   }
   
   .cards__item {
+    width: 400px;
     display: flex;
     flex: 1;
     margin: 0 1rem;
-    border-radius: 10px; 
+    border-radius: 20px; 
+    border-bottom-style: inset;
+    
   }
   
   .cards__item__link {
@@ -46,10 +49,7 @@
     flex-flow: column;
     width: 100%;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    border-radius: 10px;
-    overflow: hidden;
+    border-radius: 25px;
     text-decoration: none;
   }
   
@@ -58,16 +58,12 @@
     width: 100%;
     padding-top: 67%;
     overflow: hidden;
-    box-shadow: 5px 5px 5px #1F98F4;
+    box-shadow: 5px 5px 5px var(--primary-blue);
   }
   
-  .author_link {
+  .author_link a{
     padding-left: 10px;
-  }
-
-  .fade-img {
-    animation-name: fade-img;
-    animation-duration: 2s;
+    color: #be9656;
   }
   
   .cards__item__pic-wrap::after {
@@ -80,7 +76,7 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color: var(--primary-blue);
     box-sizing: border-box;
   }
   
@@ -106,7 +102,10 @@
   .cards__item__info {
     padding: 20px 30px 30px;
     background-color: #fff;
+    max-height: 100%;
+    max-height: 100%;
   }
+
   
   .cards__item__text {
     color: #252e48;
@@ -130,4 +129,23 @@
     .cards__item {
       margin-bottom: 2rem;
     }
+  }
+
+  .chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    background-color: var(--primary-blue)
+  }
+  
+  .chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 45%;
   }

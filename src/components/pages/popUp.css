@@ -21,20 +21,30 @@
     display: flexbox;
     border-width: 10px;
     border-style: solid;
-    border-color: var(--primary-orange);
+    border-color: #fff
 }
 
 .popup-inner .close-btn {
     position: absolute;
     top: 16px;
     right: 16px;
-    
+    background-color: rgba(255, 255, 255, 0.645); 
 }
 
 .col-1 {
-  background-color: red;
-  width: 50%;
-  display: block;
+  display: flex; 
+}
+
+.envelope {
+  width: 100px;
+  height: 100px;
+  padding-top: 310px;
+ }
+
+ @media only screen and (max-width: 1024px) {
+  .col-1 {
+    display: none;
+  }
 }
 
 .col-2 {
@@ -53,7 +63,7 @@
 
 .banner-newsletter {
     float: left;
-    width: 270px;
+    width: 370px;
   }
 
   .row {
@@ -71,8 +81,9 @@
     font-size: 25px;
     font-weight: bold;
     background: transparent;
+    background-color: rgba(0,0,0,0.25);
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid var(--primary-orange);
     color: #fff;
   }
 

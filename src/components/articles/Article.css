@@ -12,6 +12,7 @@
     height: 280px;
     object-fit: cover;
     border-radius: 7px;
+    padding-top: 50px;
   }
   
   .postInfo {
@@ -32,11 +33,9 @@
   }
   
   .postTitle {
-    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 900;
     margin-top: 15px;
-    cursor: pointer;
   }
   
   .postDate {
@@ -44,7 +43,7 @@
     font-style: italic;
     font-size: 13px;
     font-weight: 400;
-    color: #999999;
+    color: #be9656;
     margin-top: 15px;
   }
   

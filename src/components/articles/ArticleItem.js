@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Image1 from '../../assets/logo.png'
+import Image1 from '../../assets/ambiente.jpg'
 import CardItem from '../cards/cardItem';
 
+import '../cards/cards.css'
 import './article.css'
 
 function ArticleItem() {
@@ -27,11 +28,9 @@ function ArticleItem() {
           </Link>
         </span>
       </div>
-      <span className="postTitle">
-        <Link to="/" className="link">
-          Lorem ipsum dolor sit amet
-        </Link>
-      </span>
+      <h2 className="postTitle">
+          Lorem ipsum dolor sit amet 
+      </h2>
       <hr />
       <span className="postDate">1 hour ago</span>
     </div>
