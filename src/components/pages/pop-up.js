@@ -1,4 +1,3 @@
-import { color } from '@mui/system'
 import React from 'react'
 import './pop-up.css'
 import Image1 from '../../assets/envelope.png'
