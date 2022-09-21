@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import Image1 from '../../assets/ambiente.jpg'
 import CardItem from '../cards/card-item';
 
-import '../cards/cards2.css'
-import './article2.css'
+import '../cards/cards.css'
+import './article.css'
 
 function ArticleItem() {
   return (

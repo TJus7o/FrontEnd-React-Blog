@@ -2,7 +2,7 @@ import React from 'react'
 import Image1 from '../../assets/logo.png'
 import { Link } from "react-router-dom";
 
-import './info2.css'
+import './info.css'
 
 function Info() {
     return (

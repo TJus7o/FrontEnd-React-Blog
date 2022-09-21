@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 import PopUp from '../pages/pop-up'
 
-import './navbar2.css'
+import './navbar.css'
 
 function Navbar() {
     const [nav, setNav] = useState(false)
