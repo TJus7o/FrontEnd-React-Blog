@@ -1,4 +1,6 @@
-  .cards {
+ 
+
+ .cards {
     	padding-top: 50px;
   }
 
@@ -31,7 +33,7 @@
   
   .cards__items{
     margin-bottom: 24px;
-    
+    position: relative;
   }
   
   .cards__item {
@@ -41,7 +43,7 @@
     margin: 0 1rem;
     border-radius: 20px; 
     border-bottom-style: inset;
-    
+    position: relative;
   }
   
   .cards__item__link {
@@ -139,7 +141,9 @@
     line-height: 50px;
     border-radius: 25px;
     background-color: #f1f1f1;
-    background-color: var(--primary-blue)
+    background-color: var(--primary-blue);
+    /*position: absolute;*/
+    
   }
   
   .chip img {
