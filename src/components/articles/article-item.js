@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Image1 from '../../assets/ambiente.jpg'
-import CardItem from '../cards/cardItem';
+import CardItem from '../cards/card-item';
 
-import '../cards/cards.css'
-import './article.css'
+import '../cards/cards2.css'
+import './article2.css'
 
 function ArticleItem() {
   return (

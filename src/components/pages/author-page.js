@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../navbar/navbar'
-import Footer from '../footer/footer'
-import AuthorItem from '../author/authorItem'
+import Navbar from '../navbar/navbar2'
+import Footer from '../footer/footer2'
+import AuthorItem from '../author/author-item'
 
 function AuthorPage() {
   return (

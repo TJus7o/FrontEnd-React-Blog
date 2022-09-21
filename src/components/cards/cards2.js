@@ -1,9 +1,9 @@
 import React from 'react';
-import CardItem from './cardItem';
+import CardItem from './card-item';
 import Image1 from '../../assets/ambiente.jpg'
 import Image2 from '../../assets/react.jpg'
 
-import './cards.css';
+import './cards2.css';
 
 function Cards() {
   return (

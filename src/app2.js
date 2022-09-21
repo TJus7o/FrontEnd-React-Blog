@@ -1,8 +1,8 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './components/pages/home'
-import ArticlePage from './components/pages/articlePage'
-import AuthorPage from './components/pages/authorPage'
+import Home from './components/pages/home2'
+import ArticlePage from './components/pages/article-page'
+import AuthorPage from './components/pages/author-page'
 
 
 function App() {

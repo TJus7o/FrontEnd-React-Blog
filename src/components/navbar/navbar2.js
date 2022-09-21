@@ -5,9 +5,9 @@ import { FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 
-import PopUp from '../pages/popUp'
+import PopUp from '../pages/pop-up'
 
-import './navbar.css'
+import './navbar2.css'
 
 function Navbar() {
     const [nav, setNav] = useState(false)

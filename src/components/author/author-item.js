@@ -2,9 +2,9 @@ import React from 'react'
 import Image1 from '../../assets/borat.jpg'
 import { LoremIpsum } from 'react-lorem-ipsum';
 
-import './authorItem.css'
+import './author-item.css'
 
-function authorItem() {
+function AuthorItem() {
   return (
     <div className='container'>
   
@@ -23,4 +23,4 @@ function authorItem() {
   )
 }
 
-export default authorItem
+export default AuthorItem
