@@ -13,17 +13,14 @@
 }
 
 .popup-inner {
-    
-    
     width: 700px;
-    height: 700px;
-  
+    height: 500px;
     background-color: var(--primary-blue);
-
     display: flexbox;
     border-width: 10px;
     border-style: solid;
     border-color: #fff;
+    
 }
 
 .popup-inner .close-btn {
@@ -40,7 +37,8 @@
 .envelope {
   width: 100px;
   height: 100px;
-  padding-top: 310px;
+  padding-top: 180px;
+  
  }
 
  @media only screen and (max-width: 1024px) {
@@ -52,20 +50,28 @@
 .col-2 {
   width: 80%;
   text-align: center;
+  
 }
 
 .col-2 li {
   text-align: left;
+  margin-top: -30px;
+  margin-bottom: 25px;
 }
 
 .btn-subscribe {
     margin-top: 10px;
 }
 
+.col-2 h1 {
+  margin-top: -40px;
+}
+
 
 .banner-newsletter {
     float: left;
-    width: 370px;
+    width: 360px;
+    
   }
 
   .row {
@@ -94,6 +100,7 @@
     height: 50px;
     padding-left: 150px;
     font-size: 1re; 
+    
   }
 
   .checkbox {
@@ -107,5 +114,4 @@
 .terms a {
   color: #be9656;
 }
-
 

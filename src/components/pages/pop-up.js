@@ -9,9 +9,9 @@ function popUp(props) {
     <div className='container-popup' >
         <form className='popup-inner row container'>
         <div class="banner-newsletter col-1">
-        <img src={Image2} alt="logo" width="80" height="80"/>
+        <img src={Image2} alt="logo" width="50" height="50"/>
         <div className='envelope'>
-      <img src={Image1} alt="logo" width="400" height="400"/>
+      <img src={Image1} alt="logo" width="300" height="300"/>
       </div>
     </div>
         <div className='info col-2'>
@@ -19,7 +19,6 @@ function popUp(props) {
             <h3>Enroll for our FREE updates</h3>
             <li>Well send you periodic updates</li>
             <li>Dont worry, its not the least bit annoying</li>
-            <br></br>
             <div className='labels'>
             <input 
                 type='text' name='' required='' placeholder='Name' 
@@ -33,7 +32,6 @@ function popUp(props) {
             </div>
             <button className='close-btn' onClick={() => props.setTrigger(false)}>close</button>
             {props.children}
-            <br></br>
             <div className='terms'>
             <p>Terms available <a href='/'>here.</a></p>
             </div>
