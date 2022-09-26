@@ -24,7 +24,9 @@ function Navbar() {
       }, []);*/
     
 
-    return (
+    return <>
+        <PopUp trigger={buttonPopup} setTrigger={setButtonPopup}></PopUp>
+        <PopUp trigger={timedPopup} setTrigger={setTimedPopup}></PopUp>
         <div name='home' className={nav ? 'navbar navbar-bg' : 'navbar'}>
             <div className={nav ? 'logo dark' : 'logo'}>
                 <h2>BLOG</h2>
@@ -37,8 +39,7 @@ function Navbar() {
                 <div>
                 <button onClick={() => setButtonPopup(true)}>Subscribe</button>
                 </div>
-                <PopUp trigger={buttonPopup} setTrigger={setButtonPopup}></PopUp>
-                <PopUp trigger={timedPopup} setTrigger={setTimedPopup}></PopUp>
+                
 
             <div className="hamburger" onClick={handleNav} >
                 {!nav ? (<HiOutlineMenuAlt4 className='icon' />) : (<AiOutlineClose style={{ color: '#000' }} className='icon' />)}
@@ -65,7 +66,7 @@ function Navbar() {
                 </div>
             </div>
         </div>
-    )
+    </>
 }
 
 export default Navbar

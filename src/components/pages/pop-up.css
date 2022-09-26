@@ -9,19 +9,21 @@
     z-index: 1;  
     background-color: rgba(0,0,0,0.25);
     line-height: 1.5;
+    
 }
 
 .popup-inner {
-    position: relative;
-    padding: 32px;
-    width: 870px;
-    /*background-color: rgba(18, 41, 93, 0.9);*/
+    
+    
+    width: 700px;
+    height: 700px;
+  
     background-color: var(--primary-blue);
 
     display: flexbox;
     border-width: 10px;
     border-style: solid;
-    border-color: #fff
+    border-color: #fff;
 }
 
 .popup-inner .close-btn {

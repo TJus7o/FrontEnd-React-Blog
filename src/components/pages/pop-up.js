@@ -1,12 +1,13 @@
 import React from 'react'
-import './pop-up.css'
 import Image1 from '../../assets/envelope.png'
 import Image2 from '../../assets/mini.jpg'
+
+import './pop-up.css'
 
 function popUp(props) {
   return (props.trigger) ? (
     <div className='container-popup' >
-        <form className='popup-inner row'>
+        <form className='popup-inner row container'>
         <div class="banner-newsletter col-1">
         <img src={Image2} alt="logo" width="80" height="80"/>
         <div className='envelope'>
