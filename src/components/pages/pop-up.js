@@ -6,7 +6,10 @@ import './pop-up.css'
 
 function popUp(props) {
   return (props.trigger) ? (
+    
     <div className='container-popup' >
+    <button className='close-btn' onClick={() => props.setTrigger(false)}>Close</button>
+        {props.children}
         <form className='popup-inner row container'>
         <div class="banner-newsletter col-1">
         <img src={Image2} alt="logo" width="50" height="50"/>
@@ -15,6 +18,7 @@ function popUp(props) {
       </div>
     </div>
         <div className='info col-2'>
+       
             <h1>NEWSLETTER</h1>
             <h3>Enroll for our FREE updates</h3>
             <li>Well send you periodic updates</li>
@@ -30,8 +34,7 @@ function popUp(props) {
             />
             </div>
             </div>
-            <button className='close-btn' onClick={() => props.setTrigger(false)}>close</button>
-            {props.children}
+            
             <div className='terms'>
             <p>Terms available <a href='/'>here.</a></p>
             </div>
