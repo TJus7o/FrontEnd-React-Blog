@@ -33,7 +33,7 @@ function Navbar() {
             </div>
             <ul className="nav-menu">
                 <Link to='/' smooth={true} duration={500} ><li>Home</li></Link>
-                <a href='https://merkleinc.ch/en' ><li>About</li></a>
+                <a href='/' ><li>About</li></a>
             </ul>
             
                 <div>

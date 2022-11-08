@@ -1,6 +1,6 @@
 import React from 'react'
 import Image1 from '../../assets/envelope.png'
-import Image2 from '../../assets/mini.jpg'
+
 
 import './pop-up.css'
 
@@ -12,7 +12,7 @@ function popUp(props) {
         {props.children}
         <form className='popup-inner row container'>
         <div class="banner-newsletter col-1">
-        <img src={Image2} alt="logo" width="50" height="50"/>
+       
         <div className='envelope'>
       <img src={Image1} alt="logo" width="300" height="300"/>
       </div>

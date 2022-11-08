@@ -11,16 +11,16 @@ function Footer() {
                 <div className="top">
                     <h3>BLOG</h3>
                     <div className="social">
-                        <a href='https://www.linkedin.com/company/merkle-dach/mycompany/'>
+                        <a href='/'>
                         <FaLinkedin className='icon'/>
                         </a>
-                        <a href='https://twitter.com/MerkleDACH'>
+                        <a href='/'>
                         <FaTwitter className='icon' />
                         </a>
-                        <a href='https://www.youtube.com/c/MerkleDACH'>
+                        <a href='/'>
                         <FaYoutube className='icon' />
                         </a>
-                        <a href='https://www.instagram.com/merkledach/'>
+                        <a href='/'>
                         <FaInstagram className='icon' />
                         </a>
                     
@@ -29,7 +29,7 @@ function Footer() {
                 <div className="bottom">
                     <div className="left">
                         <ul>
-                            <a href='https://merkleinc.ch/en'>
+                            <a href='/'>
                             <li >About</li>
                             </a>
                             <a href=''>
