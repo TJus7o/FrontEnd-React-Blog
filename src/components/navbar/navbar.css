@@ -7,8 +7,8 @@
     z-index: 1;
     color: white;
     border-bottom-style: inset ;
-    border-bottom-color: var(--primary-orange) ;
-    background-color: var(--primary-blue);
+    border-bottom-color: white ;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     position: fixed;
 }
 
@@ -20,7 +20,7 @@ button {
     font-size: 1rem;
     border-radius: 6px;
     cursor: pointer;
-    border-color: var(--primary-orange);
+    border-color: white;
     background-color: white;
     color: var(--primary-blue);
     margin-right: 10px ;

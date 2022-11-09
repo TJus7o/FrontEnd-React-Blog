@@ -49,19 +49,19 @@ function ArticleItem() {
               src={Image1} alt="/"
               text=''
               label='TAG'
-              path='/articlePage.js'
+              path='/'
             />
             <CardItem
               src={Image1} alt="/"
               text=''
               label='TAG'
-              path='/articlePage.js'
+              path='/'
             />
             <CardItem
               src={Image1} alt="/"
               text=''
               label='TAG'
-              path='/articlePage.js'
+              path='/'
             />
           </ul>
         </div>

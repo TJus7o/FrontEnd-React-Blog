@@ -1,10 +1,10 @@
 .footer {
     width: 100%;
     padding: 2rem 0;
-    background-color: var(--primary-blue);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);;
     color: white;
     border-top-style: outset ;
-    border-top-color:var(--primary-orange) ;
+    
 }
 
 .footer h3 {

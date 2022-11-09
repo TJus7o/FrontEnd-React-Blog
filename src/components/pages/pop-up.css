@@ -20,7 +20,7 @@
     border-width: 10px;
     border-style: solid;
     border-color: #fff;
-    
+    padding-top: 35px;
 }
 
 .close-btn{
@@ -100,7 +100,7 @@
     background: transparent;
     background-color: rgba(0,0,0,0.25);
     border: none;
-    border-bottom: 1px solid var(--primary-orange);
+    border-bottom: 1px solid #00d4ff;
     color: #fff;
   }
 
